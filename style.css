@@ -1,0 +1,29 @@
+body { 
+    font: 12px Arial;
+}
+
+path { 
+    stroke-width: 2.5;
+    fill: none;
+}
+
+.axis path,
+.axis line {
+    fill: none;
+    stroke: grey;
+    stroke-width: 1;
+    shape-rendering: crispEdges;
+}
+
+.area {
+    fill: #e7e7e7;
+  }
+
+.area text {
+    font-size: 20px;
+    text-anchor: middle;
+  }
+
+.hidden {
+    display: none;
+  }
